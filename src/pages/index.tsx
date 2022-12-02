@@ -29,18 +29,18 @@ export default function Home() {
         <section
           className="min-h-screen ">
             <nav className='py-10 mb-12 flex justify-between'>
-              <h1 className='text-xl hover:drop-shadow-xl hover:backdrop-blur-sm hover:cursor-pointer italic font-burtons font-semibold dark:text-white'>Portfolio</h1>
+              <h1 className='text-xl hover:drop-shadow-xl hover:backdrop-blur-sm hover:cursor-pointer italic font-burtons font-semibold dark:text-gray-200'>Portfolio</h1>
               <ul className='flex items-center'>
                 <li>
-                  <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white'/>
+                  <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-gray-200'/>
                 </li>
                 <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 font-semibold' href='#'>Resume</a></li>
               </ul>
             </nav>
             <div className='text-center p-10'>
               <h2 className='text-4xl py-2 text-teal-700 hover:opacity-50 md:text-6xl truncate hover:text-clip font-medium hover:cursor-pointer dark:text-teal-300'>Wisley A. Sousa</h2>
-              <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Front-end Developer</h3>
-              <p className='text-md py-5 leading-6 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+              <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-200'>Front-end Developer</h3>
+              <p className='text-md py-5 leading-6 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
             </div>
             <div className='text-4xl flex justify-center gap-12 py-2 text-gray-600'>
               <AiFillGithub />
@@ -53,11 +53,11 @@ export default function Home() {
 
         <section>
           <div className='text-center'>
-            <h3 className='text-2xl pt-5 py-1 dark:text-white'>Services I offer</h3>
-            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-white'>
+            <h3 className='text-2xl pt-5 py-1 dark:text-gray-200'>Services I offer</h3>
+            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-gray-200'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum <span className='text-teal-500'>dolor </span> sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
             </p>
-            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-white'>
+            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-gray-200'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum <span className='text-teal-500'>dolor </span> sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
             </p>
           </div>
@@ -100,11 +100,11 @@ export default function Home() {
         </section>
         <section>
           <div className=''>
-            <h3 className='text-3xl pt-2 py-1 dark:text-white text-center'>Portfolio</h3>
-            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-white'>
+            <h3 className='text-3xl pt-2 py-1 dark:text-gray-200 text-center'>Portfolio</h3>
+            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-gray-200'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum <span className='text-teal-500'>dolor </span> sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
             </p>
-            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-white'>
+            <p className='text-md py-2 leading-6 text-justify text-gray-800 dark:text-gray-200'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum <span className='text-teal-500'>dolor </span> sit amet consectetur adipisicing elit. Quisquam, quae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
             </p>
           </div>
