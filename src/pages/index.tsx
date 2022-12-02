@@ -77,7 +77,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
             <div className='text-center bg-gradient-to-r from-cyan-100 to-teal-200 shadow-lg p-10 rounded-xl my-10'>
-              <Image src={} width={100} height={100} alt={''} className='mx-auto' />
+              <Image src={consulting} width={100} height={100} alt={''} className='mx-auto' />
               <h3 className='text-lg font-medium pt-6 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
