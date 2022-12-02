@@ -2,10 +2,10 @@ import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from 'next/image';
-import deved from '../public/IMG_5426.png';
-import design from '../public/design.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
+import deved from '../../public/IMG_5426.png';
+import design from '../../public/design.png';
+import code from '../../public/code.png';
+import consulting from '../../public/consulting.png';
 
 
 export default function Home() {
